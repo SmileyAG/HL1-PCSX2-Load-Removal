@@ -1,6 +1,6 @@
 state("pcsx2", "v1.4.0") // Offsets
 {
-    int loading : "pcsx2.exe", 0x00964A54, 0xD30, 0x4AC, 0x54;
+    	int loading : "pcsx2.exe", 0x00964A54, 0xD30, 0x4AC, 0x54;
 	string10 map : "pcsx2.exe", 0x009644A8, 0x588, 0x1C, 0x10A8;
 }
 
@@ -22,7 +22,7 @@ init // Version specific
 		print("Detected game version: " + version + " - MD5Hash: " + MD5Hash);
 	}
 
-    else
+    	else
 	{
 		version = "UNDETECTED";
 		print("UNDETECTED GAME VERSION - MD5Hash: " + MD5Hash);
