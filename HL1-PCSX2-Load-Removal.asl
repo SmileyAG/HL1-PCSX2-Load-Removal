@@ -15,6 +15,7 @@ init // Version specific
 		}
 	}
 	var MD5Hash = exeMD5HashBytes.Select(x => x.ToString("X2")).Aggregate((a, b) => a + b);
+	//print("MD5Hash: " + MD5Hash.ToString());
 
 	if(MD5Hash == "A193E39E8D9F6C53FE106C19765E5693")
 	{
