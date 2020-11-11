@@ -43,6 +43,14 @@ start // Start splitter
 	}
 }
 
+reset // Reset splitter
+{
+	if (current.loading == 0 && old.loading == 1 && current.map == "c1a0")
+	{
+		return true;
+	}
+}
+
 update // Version specific
 {
 	if (version.Contains("UNDETECTED"))

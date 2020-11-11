@@ -6,6 +6,7 @@
  4. Add (pluss sign) -> Control - Scriptable Auto Splitter
  5. Double click on Scriptable Auto Splitter
  6. Locate the .asl file path in Your computer
+ 7. Be sure to disable BunnySplit in Edit Splits, otherwise the PCSX2 autosplitter won't work!
 
 ## Links
 
