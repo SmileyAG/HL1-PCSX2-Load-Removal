@@ -1,6 +1,6 @@
 # Install
 
- 1. Download https://github.com/TheSmiley47/HL1-PCSX2-Load-Removal/blob/main/HL1-PCSX2-Load-Removal.asl
+ 1. Download https://github.com/SmileyAG/HL1-PCSX2-Load-Removal/blob/main/HL1-PCSX2-Load-Removal.asl
  2. Rightclick on livesplit
  3. Edit layout
  4. Add (pluss sign) -> Control - Scriptable Auto Splitter
